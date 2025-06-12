@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 const Organization = require("../models/organization.model"); // Adjust path if needed
 const { faker } = require("@faker-js/faker");
 
-const MONGO_URI = "mongodb://localhost:27017/orgadmin";
+const MONGO_URI =
+  "mongodb+srv://yoursandeshgeneral:Wc5HmGCWHenNZSj1@cluster0.v6cxr7m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const seed = async () => {
   await mongoose.connect(MONGO_URI, {
