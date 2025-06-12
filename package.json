@@ -1,0 +1,24 @@
+{
+  "name": "test-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "logger": "^0.0.1",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "winston": "^3.17.0"
+  }
+}
